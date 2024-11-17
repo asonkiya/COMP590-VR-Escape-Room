@@ -3,12 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-<<<<<<< HEAD
-  - Zombie
-=======
-  - SnapPoint
->>>>>>> 647d18ed8a17d16587320c13c65a2bb9290576a4
+  tags: []
   layers:
   - Default
   - TransparentFX
