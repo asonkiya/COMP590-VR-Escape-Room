@@ -31,16 +31,16 @@ public class JoystickMovement : MonoBehaviour
         }
 
         // Apply gravity
-        if (characterController.isGrounded)
-        {
-            velocity.y = 0f; // Reset velocity when grounded
-        }
-        else
-        {
-            velocity.y += gravity * Time.deltaTime; // Apply gravity over time when not grounded
-        }
+        //if (characterController.isGrounded)
+        //{
+        //    velocity.y = 0f; // Reset velocity when grounded
+        //}
+        //else
+        //{
+        //    velocity.y += gravity * Time.deltaTime; // Apply gravity over time when not grounded
+       // }
 
         // Move character with gravity
-        characterController.Move(velocity * Time.deltaTime);
+        //characterController.Move(velocity * Time.deltaTime);
     }
 }
