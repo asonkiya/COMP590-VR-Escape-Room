@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Zombie
+  - SnapPoint
+  - CorrectSpice
+  - WrongSpice
   layers:
   - Default
   - TransparentFX
