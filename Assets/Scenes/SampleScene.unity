@@ -584,7 +584,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &40919619
 MonoBehaviour:
@@ -1021,7 +1021,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 37acd4a3bb4a341d38436345b056d58f, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37acd4a3bb4a341d38436345b056d58f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3914,6 +3914,10 @@ PrefabInstance:
     - target: {fileID: 3889200353731454673, guid: 2de2d8264ad50fb4a8961bb629e1bfb6, type: 3}
       propertyPath: ClampVelocityModule.enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3889200353731454673, guid: 2de2d8264ad50fb4a8961bb629e1bfb6, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
       objectReference: {fileID: 0}
     - target: {fileID: 3889200353731454673, guid: 2de2d8264ad50fb4a8961bb629e1bfb6, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
@@ -6949,7 +6953,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e45b15fccb6e9451688b50337ba256fc, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e45b15fccb6e9451688b50337ba256fc, type: 3}
       propertyPath: m_LocalScale.x
@@ -8894,7 +8898,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a3b6710bbba18486895d67f0cf4eb36a, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a3b6710bbba18486895d67f0cf4eb36a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9876,7 +9880,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 37acd4a3bb4a341d38436345b056d58f, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37acd4a3bb4a341d38436345b056d58f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10019,7 +10023,7 @@ Transform:
   - {fileID: 1479316956}
   - {fileID: 1959963504}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1178938858
 PrefabInstance:
@@ -10499,7 +10503,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189762167}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -11136,7 +11140,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 37acd4a3bb4a341d38436345b056d58f, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37acd4a3bb4a341d38436345b056d58f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11735,7 +11739,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d97e0a09d5f4845edb51d8e62a8aa01b, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d97e0a09d5f4845edb51d8e62a8aa01b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14506,6 +14510,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1820572058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820572047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 131bc59ec934b1a47997d882714b6c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPosition: {fileID: 1189762168}
+  congratulationsText: {fileID: 1820572047}
+  snapThreshold: 0.5
+  snapSpeed: 5
 --- !u!1 &1828601335
 GameObject:
   m_ObjectHideFlags: 0
