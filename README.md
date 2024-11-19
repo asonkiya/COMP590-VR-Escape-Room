@@ -1,19 +1,22 @@
-# VR Escape Room Restaurant
+# VR Restaurant Escape Room
 
-**Development Team**: VirtuallyReal  
+**Development Team**: VirtuallyReal
+
+**Documentation Video**: **[https://youtu.be/Edwqr4avIxE](https://youtu.be/Edwqr4avIxE)**
+
 **Game Intro**: A thought-provoking VR escape room experience set in a restaurant, where players solve puzzles to escape before time runs out.
 
 ---
 
 ## About the Game
-In the **VR Escape Room Restaurant** game, players find themselves trapped in a mysterious restaurant. They must use their wits and VR controls to explore, interact with objects, and solve puzzles to make their escape. The immersive environment and intuitive controls make this an exciting adventure for all VR enthusiasts.
+In the **VR Restaurant Escape Room** game, players find themselves trapped in a restaurant. They must use their wits and VR controls to explore, interact with objects, and solve puzzles to make their escape. The immersive environment and intuitive controls make this an exciting adventure for all VR enthusiasts.
 
 ---
 
 ## Controls
 - **Left Joystick**: Move your character around the environment.
 - **Grip Button**: Grab and hold objects.
-- **Right Joystick**: Manipulate objects while holding them (e.g., rotate, move).
+- **Right Joystick**: Move objects around while holding them.
 
 ---
 
@@ -24,8 +27,8 @@ In the **VR Escape Room Restaurant** game, players find themselves trapped in a 
 ---
 
 ## Tutorials Used
-- **[VR Escape Room Development Tutorial](https://www.youtube.com/watch?v=FyhNnbZR28I)**: This tutorial provided guidance on creating interactive VR mechanics and implementing escape room puzzles.
+- **[VR Object Grab Tutorial](https://www.youtube.com/watch?v=FyhNnbZR28I)**: This tutorial provided guidance on how to grab objects in VR on Unity.
 
 ---
 
-**Thank you for playing VR Escape Room Restaurant!**  
+**Thank you for playing the VR Restaurant Escape Room!**  
