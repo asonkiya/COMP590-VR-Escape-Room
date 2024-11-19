@@ -10,6 +10,15 @@ public class ChairSnapping : MonoBehaviour
     private bool isSnapping = false; // Whether the snapping process is active
     private bool snapped = false; // Whether the chair has snapped into position
 
+    void Start()
+    {
+        // Ensure congratulations text is initially inactive
+        if (congratulationsText != null)
+        {
+            congratulationsText.SetActive(false);
+        }
+    }
+
     void Update()
     {
         if (!snapped && Vector3.Distance(transform.position, targetPosition.position) <= snapThreshold)
@@ -17,7 +26,7 @@ public class ChairSnapping : MonoBehaviour
             isSnapping = true;
         }
 
-        if (isSnapping)
+        if (isSnapping && !snapped)
         {
             SnapToTarget();
         }
@@ -42,6 +51,7 @@ public class ChairSnapping : MonoBehaviour
         if (congratulationsText != null)
         {
             congratulationsText.SetActive(true);
+            Debug.Log("Congratulations! Chair snapped into position.");
         }
         else
         {

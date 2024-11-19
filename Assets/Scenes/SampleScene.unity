@@ -7554,7 +7554,7 @@ GameObject:
   - component: {fileID: 854905465}
   - component: {fileID: 854905464}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Congrats
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14524,7 +14524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPosition: {fileID: 1189762168}
   congratulationsText: {fileID: 1820572047}
-  snapThreshold: 0.5
+  snapThreshold: 2
   snapSpeed: 5
 --- !u!1 &1828601335
 GameObject:
